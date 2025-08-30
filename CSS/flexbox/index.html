@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+       
+        background-color: rgb(55, 214, 214);
+        max-width: 900px;
+        min-height: 500px;
+    }
+    .container p {
+        background-color: rgb(157, 87, 142);
+        color: white;
+        font-size: 55px;
+        border: 2px solid black;
+        border-color: aliceblue;
+
+    }
+    .flexcontainer {
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p {
+        width: 350px;
+        height: 70px;
+        /* align-items:center ; */
+        /* align-self: center;
+        align-self: flex-start;
+        align-self: flex-end; */
+    }
+
+    /* p:nth-child(3) {
+        height: 200px;
+        background-color: rgb(153, 149, 144);
+        text-decoration: underline;
+    }
+    p */
+p:nth-child(1) {
+        height: 100px;
+        background-color: rgb(153, 149, 144);
+        text-decoration: underline;
+        flex-grow: 1;
+        flex-shrink: 3;
+    }
+    p:nth-child(2) {
+        height: 200px;
+        background-color: rgb(153, 149, 144);
+        flex-shrink: 1;
+        flex-grow: 3;
+    }
+</style>
+<body>
+    <div class="container flexcontainer">
+        <p>Hello, World!</p>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        <p>This is yet another paragraph.</p>
+    </div>
+</body>
+</html>

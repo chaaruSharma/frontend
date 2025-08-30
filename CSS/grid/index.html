@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: grid;
+        margin: 20px;
+      grid-gap: 10px;
+      width: 800px;
+      height: 400px;
+      background-color: rgb(92, 25, 97);
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 2fr 1fr;
+        
+    }
+    .item{
+       background-color:rgb(176, 111, 187);
+       color: white;
+       padding: 10px;
+       font-size: 30px;
+    }
+
+    .item:nth-child(1){
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+    .item:nth-child(2){
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="item">1 navbar</div>
+        <div class="item">2 sidebar</div>
+        <div class="item">3 content</div>
+        <div class="item">4 footer</div>
+    </div>
+</body>
+</html>

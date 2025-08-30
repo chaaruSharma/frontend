@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color: blueviolet;
+        width: 800px;
+        height: 400px;
+        /* position: relative;
+        overflow: hidden; */
+    }
+    .box{
+        background-color: yellow;
+        width: 30px;
+        height: 40px;
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+    }
+    .box:hover{
+        animation-name: move  ;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes move {
+        0% {
+            background-color: rgb(73, 18, 135);
+            transform: translate(100px, 0px);
+        }
+        20% {
+            transform: translate(300px, 0px);
+            background-color: rgb(249, 63, 6);
+        }
+        50% {
+            background-color: rgb(60, 60, 43);
+            transform: translate(600px, 300px);
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

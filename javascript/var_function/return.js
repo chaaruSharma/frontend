@@ -8,4 +8,4 @@ function calculateSum(a, b) {
 let sum = calculateSum(5, 10);
 console.log(`The sum is: ${sum}`);
 
-calculateSum(5, 10);
+console.log(calculateSum(5, 10));

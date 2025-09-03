@@ -12,7 +12,7 @@ for(let char of displayMessage){
         flag=false;
     }
 }
-if(flag===true){
+if(flag){
     console.log("string has vowels");
 }
 else{console.log("string doesn't have vowels");}

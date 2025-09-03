@@ -6,3 +6,4 @@ console.log(displayMessage.length);
 
 const asciicode= displayMessage.charCodeAt(index);
 console.log(asciicode);
+console.log(`the ascii code of ${char} is ${asciicode}`);

@@ -1,0 +1,6 @@
+// swap no without using any third variable
+
+let a=5;
+let b=8;
+[a,b]=[b,a];
+console.log(a,b);

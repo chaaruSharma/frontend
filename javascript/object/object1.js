@@ -3,7 +3,7 @@
 // object literal
 
 const personObj={
-    name: "Prakash",
+    name: "Prakash",//property
     age: 99,
     job: "full stack developer",
     "is admin": "true"

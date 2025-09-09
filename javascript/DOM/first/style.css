@@ -1,0 +1,46 @@
+.btn{
+    /* border: 1px solid black; */
+    /* color: red; */
+    display: flex;
+  height: 100vh;
+  width: 100wh;
+    justify-content: center;
+    align-items: center; 
+    gap: 4rem;
+}
+
+#btnstart{
+    background-color: red;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: larger;
+    font-weight: 600;
+     height: 100px;
+    width: 100px;
+}
+#btnstop{
+    background-color: red;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: larger;
+    font-weight: 600;
+     height: 100px;
+    width: 100px;
+}
+#btnreset{
+    background-color: red;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: larger;
+    font-weight: 600;
+     height: 100px;
+    width: 100px;
+}
+.btnWhite{
+  background-color: white;
+  color: black;
+  height:100px;
+  width: 100px;
+   font-size: larger;
+    font-weight: 600;
+}

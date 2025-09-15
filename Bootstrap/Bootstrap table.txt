@@ -1,0 +1,27 @@
+Bootstrap Tables
+
+-- Create a table on a web page
+
+-classes
+.table
+.table-striped: striped table
+.table-bordered: Border to a table
+.table-hover: On mouse hover
+.table-dark: dark colored table
+.table- borderless: to create a borderless table
+
+-contextual classes for table cells
+.table-primary: important info
+.table-success: success action
+.table-danger: danger action
+.table-info: add info
+.table-warning: warning action
+.table-active: hover color
+.table-secondary: less important info
+.table-dark: dark grey color
+.table-light: light grey color
+
+--- Color on table Headers
+
+.thead-dark: Table header with dark colors
+.thead-light: Table header with light colors

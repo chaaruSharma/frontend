@@ -1,0 +1,16 @@
+Text Color in bootstrap
+
+-- Add color to Text
+
+-- classes
+.text-muted: Grey color
+.text-primary: blue color- key content
+.text-success: success action- green color
+.text-info: set transformation
+.text-warning: set warning message- orange
+.text-danger: set danger message- red
+.text-secondary: less key content
+.text-white: white text color
+.text-dark: dark text
+.text-body: normal body
+.text-light: light color

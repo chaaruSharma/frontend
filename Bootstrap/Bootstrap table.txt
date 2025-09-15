@@ -25,3 +25,14 @@ Bootstrap Tables
 
 .thead-dark: Table header with dark colors
 .thead-light: Table header with light colors
+
+
+///  Bootstrap Responsive Tables
+
+-table-responsiveness: Create a responsive table
+<992px--- it will add a scrollbar
+
+.table-responsive-sm for <576px
+.table-responsive-md for <768px
+.table-responsive-lg for <992px
+.table-responsive-xl for <1200px

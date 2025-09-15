@@ -1,0 +1,11 @@
+Background color in bootstrap 4
+-- set color to the Background
+-- classes
+.bg-primary: key information
+.bg-success: success action
+.bg-info: set information
+.bg-warning: set warning message
+.bg-danger: set danger message
+.bg-secondary: less important info
+.bg-dark: dark Background color
+.bg-light: light Background color

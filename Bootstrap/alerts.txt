@@ -1,0 +1,15 @@
+Bootstrap alerts
+
+== classes
+.alert-success: success alert box
+.alert-info: info alert box
+.alert-warning: warning alert box- orange
+.alert-danger: danger alert box - red
+.alert-primary: key info- blue
+.alert-secondary: less important info
+.alert-light: light colored alert
+.alert-dark: dark colored alert
+
+== add a close (x) symbol to the right of the alert to close it
+-- while closing an alert box, add a fading effect to it.
+-- add a link in the alert box.

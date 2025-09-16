@@ -1,0 +1,11 @@
+Bootstrap progress bars
+
+--Create a progress bars
+--Width of a Progress bars
+--Height of a Progress bars
+--Add stripes to Progress Bar
+
+-Set label
+-- Use Bootstrap cotextual background classes to change the color of the progress bars
+
+--Animate Progress Bar

@@ -6,16 +6,16 @@ Bootstrap badges
 .badge
 
 ---Classes to change badge color
-.badge-primary
-.badge-secondary
-.badge-success
-.badge-danger
-.badge-warning
-.badge-info
-.badge-light
-.badge-dark
+.bg-primary
+.bg-secondary
+.bg-success
+.bg-danger
+.bg-warning
+.bg-info
+.bg-light
+.bg-dark
 
 
 === Class to change the shape of a badges
 
-.badge-pill
+.rounded-pill

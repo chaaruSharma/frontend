@@ -1,0 +1,21 @@
+Navbar in Bootstrap
+
+--Create a basic Navigation Bar
+.navbar
+---Responsive collapsing class
+expand-xl
+expand-lg
+expand-md
+expand-sm
+
+--centre a Navigation bar
+.justify-content-centre class
+
+--- change the background color of the Navigation bar
+
+--- .navbar-brand class
+--- .navbar-text class
+
+--- Fixed Navigation bar
+.Fixed-top class
+.Fixed-bottom class

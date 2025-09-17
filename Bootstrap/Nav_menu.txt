@@ -1,0 +1,26 @@
+Navigation Menu in Bootstrap
+
+---Create horizontal Menu
+.nav
+.nav-item
+.nav-link
+
+--Nav Alignment
+justify-content-centre
+justify-content-end
+
+--vertical Nav
+.flex-column
+
+--Create Navigation Tabs
+.nav-tabs
+
+--Create Navigation pills
+.nav-pills
+
+--justify Navigation Tabs/ Navigation pills
+.nav-justified
+
+--Add dropdown to tabs/pills
+
+--Toggleable Tabs

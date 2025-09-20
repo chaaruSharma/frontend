@@ -1,0 +1,20 @@
+Images in Bootstrap
+
+---Create Circular Images
+.rounded-circle class
+
+---Create rounded corners
+.rounded class
+
+---Create Images Thumbnail
+.img-Thumbnail class
+
+--center an Image
+mx-auto:margin:auto
+d-block : display: block
+
+---Align Images
+.float-left class
+.float-right class
+
+--Create Responsive Images

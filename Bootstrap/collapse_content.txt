@@ -1,0 +1,12 @@
+ Bootstrap collapse content
+
+ ---collapse content
+ .collapse class
+ data-bs-toggle="collapse"
+ data-bs-target="id name"
+
+ === Display content always
+ .show class
+
+ ---- Create Accordion
+ data-parent attribute

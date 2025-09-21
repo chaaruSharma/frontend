@@ -1,0 +1,7 @@
+Forms in Bootstrap
+
+---Full-width Forms
+form-group class
+
+---Inline Forms
+form-inline class

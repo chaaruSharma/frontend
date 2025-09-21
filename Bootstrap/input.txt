@@ -1,0 +1,19 @@
+Bootstrap Input
+
+---Controls
+input (Text)
+input (Password)
+checkbox
+radio
+textarea
+select
+
+---Resize Forms
+.form-control-sm
+.form-control-lg
+
+----Set Range Input
+input (Range)
+
+---- Set File Input
+input(File)

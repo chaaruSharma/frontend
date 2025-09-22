@@ -1,0 +1,25 @@
+Delimiters: Characters used to mark the beginning and end of a pattern.
+Literal Characters: Characters without special meaning ex: a to z, 0 to 9.
+Meta Characters: Characters with special meaning ex: ^$*+?{}[]()|\
+`.` is a special metacharcter and it matches any single character except newline characters(\n,\r).
+`\` is a special metacharcter and it is used to escape special characters or introduce special sequences (\n,\t,etc.)
+
+
+flags/modifiers
+*  `g`(global) : Searches for all occurences of the pattern within the text, rather than just the first one.
+*  `i` (case-insensitive): Ignores case differences when matching letters.
+*   `m` (multi-line): Changes the behaviour of ^ and $ anchors to match the beginning and end of each line within the text, rather than just the beginning and end of the entire text.
+*   `s` (dotAll): Allows the dot(.) to match newline characters (\n), which it doesn't do by default.
+*   `u` (unicode): Enables full unicode support for the regex pattern.
+*   `y` (sticky): Matches only from the last index where a previous match ended.
+
+Character classes
+*   Defining sets of character to match[abc]
+*   Ranges within character classes [a-z] or [0-9]
+*   Combined ranges within character classes[a-z0-9].
+*   Negated character classes[^abc].
+
+
+Quantifiers
+*   `^` asserts the position at the start of the string.
+*   `$` asserts the position at the end of the string

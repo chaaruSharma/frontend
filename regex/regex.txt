@@ -21,5 +21,21 @@ Character classes
 
 
 Quantifiers
+*   `*` matches 0 or more occurences
+*   `+` matches 1 or more occurences
+*   `?` matches 0 or 1 occurences
+*   `{n}` matches exactly `n` occurences.
+*   `{n,}` matches `n` or more occurences.
+*   `{n,m}` matches between `n` and `m` occurences.
+
+Anchors
 *   `^` asserts the position at the start of the string.
 *   `$` asserts the position at the end of the string
+*   `m` (multi-line flag) (not an anchor): Changes the behaviour of ^ and $ anchors to match the beginning and each line within the text,
+rather than just the beginning and end of the entire text.
+
+Shorthand characters classes
+Groups and capturing
+alternation
+word boundaries
+lookaheads and lookbehinds

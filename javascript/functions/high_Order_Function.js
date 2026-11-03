@@ -7,7 +7,7 @@ function wrapper(){
 }
 
 function greetMessage(wrapper){// higher order function
-    console.log("charu",wrapper());
+    console.log("charu,",wrapper());
 }
 greetMessage(wrapper);
 

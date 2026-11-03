@@ -13,3 +13,4 @@ const obj= {
     college: "JVWU"
 }
 console.log(obj[key]);
+console.log(obj.age);

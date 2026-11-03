@@ -6,10 +6,10 @@ const personObj={
     name: "Prakash",//property
     age: 99,
     job: "full stack developer",
-    "is admin": "true"
+    is_admin: "true"
 };
 console.log(personObj.name);
 console.log(personObj.age);
 console.log(personObj.job);
 
-console.log(personObj["is admin"]);
+console.log(personObj["is_admin"]);
